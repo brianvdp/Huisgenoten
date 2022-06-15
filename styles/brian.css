@@ -2,3 +2,27 @@
 h1,h2 {
     color: #139A43;
 }
+
+p {
+    color: #383F46;
+}
+
+.hero {
+    text-align: center;
+    background-color: #139A43;
+    border-radius: 1rem;
+    padding: 4rem 0;
+}
+
+.bottom-border {
+    background-color: white;
+    height: 0.5rem;
+}
+
+.herotitle, .herotext{
+    color: white;
+}
+
+.herotitle{
+    color: white;
+}

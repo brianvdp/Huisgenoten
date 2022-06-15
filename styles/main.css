@@ -11,6 +11,11 @@ body{
 h1, h2{
     font-family: 'Righteous';
     margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
 }
 
 h2 {
@@ -19,7 +24,7 @@ h2 {
 
 p {
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.25rem;
     margin-top: 0;
 }
 
@@ -30,6 +35,10 @@ section:nth-of-type(2n) {
 }
 
 /* Content */
+
+.hero {
+    text-align: center;
+}
 
 section {
     padding: 100px;
