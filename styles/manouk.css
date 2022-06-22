@@ -3,7 +3,8 @@ section:nth-of-type(2n) {
     background-color: #FDF8F4;
 }
 
-h1,h2 {
+h1,
+h2 {
     color: #f1d0b7;
 }
 
@@ -22,22 +23,60 @@ p {
     height: 0.5rem;
 }
 
-.herotitle, .herotext{
+.herotitle,
+.herotext {
     color: white;
 }
 
-.herotitle{
+.herotitle {
     color: white;
 }
 
-.showcaseButton{
+.showcaseButton {
     color: black;
     border: none;
     background-color: white;
 }
 
-.showcaseButton:focus{
+.showcaseButton:focus {
     background-color: white;
     color: #f1d0b7;
     box-shadow: 0 0.375rem 0 #f1d0b7;
+}
+
+/* Vlam animatiw */
+
+#Vlam_Kaars {
+    animation: move 2s ease-in-out infinite;
+    transform-origin: center;
+    animation-direction: alternate;
+    transform-box: fill-box;
+
+}
+
+@keyframes move {
+    from {
+        transform: rotate(-10deg);
+    }
+
+    to {
+        transform: rotate(10deg);
+    }
+}
+
+/* Flits animatie */
+
+#Flits {
+    animation: flits 3s ease-in-out infinite;
+}
+
+
+@keyframes flits {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
