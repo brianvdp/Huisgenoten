@@ -1,0 +1,64 @@
+/* Animatie vogel */
+#Vogel {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, 0px);
+    }
+}
+
+/* Animatie stoomwolkje van kopje */
+#Stoomwolkje {
+    animation: stoom 6s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes stoom {
+    0% {
+        transform: translate(0px, 0px);
+    }
+
+    20% {
+        transform: translate(5px, 0px);
+    }
+
+    85% {
+        transform: translate(-5px, 0px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+
+}
+
+/* Scherm glans animatie */
+.cls-10 {
+    animation: glans 3s ease-in-out infinite;
+}
+
+
+@keyframes glans {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
