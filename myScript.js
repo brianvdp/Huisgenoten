@@ -6,3 +6,5 @@ function openShowcase(ShowcaseNumber) {
     }
     document.getElementById(ShowcaseNumber).style.display = "block";  
   }
+
+openShowcase(1);

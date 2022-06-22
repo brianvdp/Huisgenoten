@@ -28,11 +28,14 @@ p {
     margin-top: 0;
 }
 
+.headerWrapper{
+    width: 100vw;
+    margin: 0;
+}
+
 /* Background */
 
-section:nth-of-type(2n) {
-    background-color: #f2faf2;
-}
+
 
 /* Content */
 
@@ -89,18 +92,22 @@ article{
     max-width: 100%;
     margin: 2rem;
     border-radius: 0.25rem;
-    box-shadow: 4px 4px 12px #555;
+    box-shadow: 0px 8px 16px lightgray;
 }
 
 .tabPanel{
     display: none;
 }
 
+
 .showcaseButton{
     padding: 1rem 2rem;
-    border: none;
-    border-radius: 0.25rem;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     cursor: pointer;
+    margin: 0;
+}   
+
+.buttonContainer{
+    margin-top: 2rem;
 }
