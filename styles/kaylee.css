@@ -46,7 +46,7 @@ p {
 }
 
 /* Neon effect animatie */
-#Neon_lamp {
+#Neon_lamp:hover {
     animation: glans 1s ease-in-out infinite;
 }
 
@@ -64,4 +64,47 @@ p {
         opacity: 0.7;
     }
 
+}
+
+/* Sims crystal */
+#Sims_kristal {
+    animation: turn 3s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes turn {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+/* Blender rotatie */
+.blender-object {
+    animation: turn 10s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+    
+}
+
+#Poot_Oranje{
+    animation: rotate 5s infinite linear; 
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotateY(45deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }

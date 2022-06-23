@@ -45,7 +45,7 @@ p {
 
 
 /* Neon effect animatie */
-.cls-42 {
+.cls-42:hover {
     animation: glans 1s ease-in-out infinite;
 }
 
