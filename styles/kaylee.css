@@ -44,3 +44,24 @@ p {
     box-shadow: 0 0.375rem 0 #65466C;
     font-weight: 600;
 }
+
+/* Neon effect animatie */
+#Neon_lamp {
+    animation: glans 1s ease-in-out infinite;
+}
+
+
+@keyframes glans {
+    0% {
+        opacity: 0.7;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.7;
+    }
+
+}
