@@ -1,3 +1,50 @@
+/*background*/
+section:nth-of-type(2n) {
+    background-color: #FDF8F4;
+}
+
+h1,
+h2 {
+    color: #907c71;
+}
+
+p {
+    color: black;
+}
+
+.hero {
+    text-align: center;
+    background-color: #907c71;
+    padding: 4rem 0;
+}
+
+.bottom-border {
+    background-color: white;
+    height: 0.5rem;
+}
+
+.herotitle,
+.herotext {
+    color: white;
+}
+
+.herotitle {
+    color: white;
+}
+
+.showcaseButton {
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+.showcaseButton:focus {
+    background-color: white;
+    color: #907c71;
+    box-shadow: 0 0.375rem 0 #907c71;
+}
+
+
 /* Animatie vogel */
 #Vogel {
     animation: float 3s ease-in-out infinite;
@@ -62,3 +109,4 @@
     }
 
 }
+

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,500&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600;700&display=swap');
 
 /* Global */
 
@@ -9,7 +10,7 @@ body{
 }
 
 h1, h2{
-    font-family: 'Righteous';
+    font-family: 'Zilla Slab' , serif;
     margin-top: 0;
     margin-bottom: 1rem;
 }
