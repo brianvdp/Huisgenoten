@@ -29,9 +29,14 @@ p {
     margin-top: 0;
 }
 
+header{
+    display:flex;
+}
+
 .headerWrapper{
     width: 100vw;
     margin: 0;
+    display:flex;
 }
 
 /* Background */
