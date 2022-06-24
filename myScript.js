@@ -1,3 +1,11 @@
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 100 ) {
+    $('nav').addClass("sticky");
+  } else {
+    $('nav').removeClass( "sticky" );
+  } 
+});
+
 function openShowcase(ShowcaseNumber) {
     var i;
     var x = document.getElementsByClassName("Showcase");
@@ -8,3 +16,4 @@ function openShowcase(ShowcaseNumber) {
   }
 
 openShowcase(1);
+

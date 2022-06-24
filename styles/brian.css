@@ -13,13 +13,12 @@ p {
 }
 
 .hero {
-    background-image: url('../images/brian.svg');
+    background-image: url('../images/brian.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: 0;
     padding: 4rem;
-    width: 100%;
 }
 
 .bottom-border {
