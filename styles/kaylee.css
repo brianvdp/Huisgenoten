@@ -13,9 +13,12 @@ p {
 }
 
 .hero {
-    text-align: center;
-    background-color: #65466C;
-    padding: 4rem 0;
+    background-image: url('../images/kaylee.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 4rem;
 }
 
 .bottom-border {

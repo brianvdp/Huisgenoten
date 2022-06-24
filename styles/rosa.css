@@ -3,6 +3,7 @@ section:nth-of-type(2n) {
     background-color: #F9F4F7;
 }
 
+
 h1,
 h2 {
     color: #E0B1CB;
@@ -13,9 +14,12 @@ p {
 }
 
 .hero {
-    text-align: center;
-    background-color: #E0B1CB;
-    padding: 4rem 0;
+    background-image: url('../images/rosa.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 4rem;
 }
 
 .bottom-border {
