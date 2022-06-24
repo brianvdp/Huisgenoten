@@ -13,10 +13,15 @@ p {
 }
 
 .hero {
-    text-align: center;
-    background-color: #907c71;
-    padding: 4rem 0;
+    background-image: url('../images/ben.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 4rem;
 }
+
+
 
 .bottom-border {
     background-color: white;
