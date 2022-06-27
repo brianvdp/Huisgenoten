@@ -12,6 +12,11 @@ p {
     color: #383F46;
 }
 
+a{
+    color: #f1d0b7;
+    font-weight: 600;
+}
+
 .hero {
     background-image: url('../images/manouk.png');
     background-repeat: no-repeat;

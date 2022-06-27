@@ -34,7 +34,7 @@ p {
 }
 
 a{
-        text-decoration: none;
+    text-decoration: none;
 }
 
 header{
@@ -92,7 +92,7 @@ article{
 .row{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2rem;
+    grid-column-gap: 4rem;
 }
 
 .row-lottie{

@@ -13,6 +13,11 @@ p {
     color: black;
 }
 
+a{
+    color: #E0B1CB;
+    font-weight: 600;
+}
+
 .hero {
     background-image: url('../images/rosa.png');
     background-repeat: no-repeat;

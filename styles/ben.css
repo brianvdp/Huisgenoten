@@ -12,6 +12,11 @@ p {
     color: black;
 }
 
+a{
+    color: #907c71;
+    font-weight: 600;
+}
+
 .hero {
     background-image: url('../images/ben.png');
     background-repeat: no-repeat;
