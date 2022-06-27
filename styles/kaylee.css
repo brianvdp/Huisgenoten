@@ -12,6 +12,11 @@ p {
     color: black;
 }
 
+a{
+    color: #65466C;
+    font-weight: 600;
+}
+
 .hero {
     background-image: url('../images/kaylee.png');
     background-repeat: no-repeat;

@@ -34,7 +34,7 @@ p {
 }
 
 a{
-        text-decoration: none;
+    text-decoration: none;
 }
 
 header{
@@ -43,7 +43,6 @@ header{
 
 .parallax{
 	width: 100%;
-	height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +92,7 @@ article{
 .row{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2rem;
+    grid-column-gap: 4rem;
 }
 
 .row-lottie{
@@ -183,4 +182,10 @@ li {
 .buttonContainer{
     margin-top: 2rem;
 }
+
+.scrollElement{
+    position: absolute;
+    top: 1px;
+  }
+  
 
