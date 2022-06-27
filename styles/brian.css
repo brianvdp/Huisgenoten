@@ -45,6 +45,12 @@ a{
     background-color: white;
 }
 
+.showcaseButton.active {
+    background-color: white;
+    color: #139A43;
+    box-shadow: 0 0.375rem 0 #139A43;
+}
+
 .showcaseButton:focus{
     background-color: white;
     color: #139A43;

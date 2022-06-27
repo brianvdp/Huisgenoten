@@ -47,12 +47,11 @@ a{
     background-color: white;
 }
 
-.showcaseButton:focus {
+.showcaseButton.active {
     background-color: white;
     color: #E0B1CB;
     box-shadow: 0 0.375rem 0 #E0B1CB;
 }
-
 
 #Print_kop{
     animation: rotate 5s infinite linear; 
