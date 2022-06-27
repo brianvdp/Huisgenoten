@@ -56,6 +56,16 @@ header{
     justify-content: center;
 }
 
+.Titel h1 {
+    top: 5%;
+    width: 100vw;
+    font-size: 7vw;
+    color: green;
+    position: absolute;
+    text-align: center;
+  }
+    
+
 /* Background */
 
 
