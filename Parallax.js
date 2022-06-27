@@ -52,6 +52,7 @@ scene1.to("#Vloerlamp_Kaylee", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 
 scene1.to("#Kast", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Kat_Zwart", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#LP_Speler", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
+scene1.to("#Losse_LP_s", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Star_wars_frame", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Frame_Sims", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Schilderij1", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
