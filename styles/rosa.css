@@ -78,3 +78,23 @@ a{
         transform: rotate(0deg);
     }
 }
+
+.night .cls-79 {
+    opacity: 1;
+}
+
+.night #Achtergrond_raam {
+    fill: #231942;
+}
+
+.night .cls-60 {
+    fill: #F2A95E;
+}
+
+.night #Union_5, .night #Union_33, .night #Union_13{
+    fill: #E0B1CB;
+}
+
+.night #Wolk_groot > path {
+    fill:#9F86C0;
+}
