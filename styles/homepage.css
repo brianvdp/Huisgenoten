@@ -6,3 +6,49 @@
     width: 100%;
     height: 100vh;
 }
+
+#Ben_Naam, #Rosa_Naam, #Kaylee_Naam, #Manouk_Naam, #Brian_Naam{
+    opacity: 0;
+}
+
+#Ben_Compleet:hover #Ben_Naam{
+    animation: hovereffect 60s ease-in infinite !important;
+    animation-fill-mode: fill-box;
+}
+
+#Rosa_Compleet:hover #Rosa_Naam{
+    animation: hovereffect 60s ease-in infinite !important;
+    animation-fill-mode: fill-box;
+}
+
+#Kaylee_Compleet:hover #Kaylee_Naam{
+    animation: hovereffect 60s ease-in infinite !important;
+    animation-fill-mode: fill-box;
+}
+
+#Brian_Compleet:hover #Brian_Naam{
+    animation: hovereffect 60s ease-in infinite !important;
+    animation-fill-mode: fill-box;
+}
+
+#Manouk_Compleet:hover #Manouk_Naam{
+    animation: hovereffect 60s ease-in infinite !important;
+    animation-fill-mode: fill-box;
+}
+
+
+
+@keyframes hovereffect {
+    0%{
+        opacity: 0;
+    }
+
+    1%{         opacity: 1;
+
+    }
+
+    100% {   opacity: 1;
+
+    }
+}
+
