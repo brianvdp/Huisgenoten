@@ -122,7 +122,6 @@ article{
 /* nav */
 
 .nav{
-    display: none;
 }
 
 
@@ -135,7 +134,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    box-shadow: 0px 2px 12px black;
+    box-shadow: 0px 2px 12px gray;
 }
 
 ul a{
@@ -144,21 +143,15 @@ ul a{
 }
 
 li {
-    color: black;
+    background-color: black;
+    opacity: 30%;
+    color: white;
     width: 100%;
     margin: 0;
     padding: 1.5rem 0;
-    font-family: 'Zilla Slab' , serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
 }
-
-
-.sticky {
-    position: fixed;
-    display: block;
-    top: 0;
-  }
-
 
 /* Jumbo */
 
