@@ -24,7 +24,7 @@ scene1.to("#Paddel", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Vloerlamp", { x: -4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Koffie", { x: -4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#PC", { x: -4 * speed, scale: 0.9, ease: "power1.in" }, 0)
-scene1.to("#Schoen_2_vloer", { x: -4 * speed, ease: "power1.in" }, 0)
+scene1.to("#Schoen_2_vloer", { x: 4 * speed, ease: "power1.in" }, 0)
 scene1.to("#Keyboard", { x: -4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Muis", { x: -4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Stoel", { x: -4 * speed, scale: 0.9, ease: "power1.in" }, 0)
@@ -32,7 +32,7 @@ scene1.to("#Tennisballen", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#TV_Scherm", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Vogel", { x: -4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Plant", { x: 4 * speed, ease: "power1.in" }, 0)
-scene1.to("#Schoen_1_vloer", { x: -4 * speed, ease: "power1.in" }, 0)
+scene1.to("#Schoen_1_vloer", { x: 4 * speed, ease: "power1.in" }, 0)
 
 
 // Kamer van kaylee Parallax
