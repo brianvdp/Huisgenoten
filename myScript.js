@@ -17,3 +17,4 @@ function openShowcase(ShowcaseNumber) {
 
 openShowcase(1);
 
+document.getElementById('active').focus();
