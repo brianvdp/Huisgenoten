@@ -122,20 +122,49 @@ article{
 
 /* nav */
 
-.nav{
-}
-
-
-ul {
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    position: fixed;
+    top: 0;
+    right: -50%;
+    width: 50%;
+    background-color: white;
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+} */
+
+.menu {
+    margin: 0;
+    position: fixed;
+    transform: translateX(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: white;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+}
+
+#hamburger {
     position: absolute;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    box-shadow: 0px 2px 12px gray;
+    top: 2rem;
+    left: 2rem;
+    z-index: 999;
+}
+
+.closeIcon {
+    display: none;
+}
+
+.showMenu {
+    transform: translateX(0);
 }
 
 ul a{
@@ -144,9 +173,7 @@ ul a{
 }
 
 li {
-    background-color: black;
-    opacity: 30%;
-    color: white;
+    color: black;
     width: 100%;
     margin: 0;
     padding: 1.5rem 0;
