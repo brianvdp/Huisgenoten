@@ -12,6 +12,11 @@ p {
     color: #383F46;
 }
 
+a{
+    color: #139A43;
+    font-weight: 600;
+}
+
 .hero {
     background-image: url('../images/brian.png');
     background-repeat: no-repeat;
