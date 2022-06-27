@@ -54,6 +54,11 @@ a{
     box-shadow: 0 0.375rem 0 #907c71;
 }
 
+/* Nav */
+li:hover {
+    background-color: #907c71;
+    color: white;
+}
 
 /* Animatie vogel */
 #Vogel {

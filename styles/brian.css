@@ -58,6 +58,12 @@ a{
 }
 
 
+/* Nav */
+li:hover {
+    background-color: #139A43;
+    color: white;
+}
+
 /* Neon effect animatie */
 .cls-42:hover {
     animation: glans 1s ease-in-out infinite;

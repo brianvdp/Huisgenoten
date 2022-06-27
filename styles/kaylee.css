@@ -53,6 +53,12 @@ a{
     font-weight: 600;
 }
 
+/* Nav */
+li:hover {
+    background-color: #65466C;
+    color: white;
+}
+
 /* Neon effect animatie */
 #Neon_lamp:hover {
     animation: glans 1s ease-in-out infinite;

@@ -59,6 +59,12 @@ a{
     transform-box: fill-box;
 }
 
+/* Nav */
+li:hover {
+    background-color: #E0B1CB;
+    color: white;
+}
+
 @keyframes rotate {
     0% {
         transform: rotate(0deg);
