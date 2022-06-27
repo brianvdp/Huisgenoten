@@ -6,3 +6,12 @@ function openShowcase(ShowcaseNumber) {
     }
     document.getElementById(ShowcaseNumber).style.display = "block";  
   }
+
+function toggleNight() {
+  var main = document.querySelector("#main");
+  if(main.classList.contains("night")) {
+    main.classList.remove("night");
+  } else {
+    main.classList.add("night");
+  }
+}

@@ -1,4 +1,4 @@
-/*
+
 const splitText = (selector) => {
   const elem = document.querySelector(selector);
   const text = elem.innerText;
@@ -39,7 +39,7 @@ const animate = function (text) {
 };
 
 animate("h1");
-*/
+
 
 var lFollowX = 0,
     lFollowY = 0,
