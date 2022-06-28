@@ -86,7 +86,7 @@ scene1.to("#Bank", { x: -4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Kleed", { x: -4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Beker", { x: -4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Vaas", { x: -4 * speed, scale: 0.9, ease: "power1.in" }, 0)
-scene1.to("#Vlam_Kaars", { x: -4 * speed, scale: 0.9, ease: "power1.in" }, 0)
+scene1.to(".vlam", { x: -4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Kaars", { x: -4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Foto_frame_brainstorm", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Frame_Iso_Woonkamer", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
@@ -97,7 +97,8 @@ scene1.to("#Boeken_3", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Boeken_2", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Tas", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
 scene1.to("#Camera", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
-scene1.to("#Schermen", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
+scene1.to("#Flits", { x: 4 * speed, scale: 0.9, ease: "power1.in" }, 0)
+
 
 
 // Kamer van Brian Parallax
