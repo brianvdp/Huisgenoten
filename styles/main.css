@@ -113,6 +113,13 @@ article{
     grid-row-gap: 4rem;
 }
 
+.row-poster{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
+}
+
 .section-content{
     display: flex;
     flex-direction: column;
