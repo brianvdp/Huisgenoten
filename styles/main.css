@@ -113,6 +113,13 @@ article{
     grid-row-gap: 4rem;
 }
 
+.row-poster{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 4rem;
+}
+
 .section-content{
     display: flex;
     flex-direction: column;
@@ -121,20 +128,6 @@ article{
 }
 
 /* nav */
-
-/* ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    right: -50%;
-    width: 50%;
-    background-color: white;
-    position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-} */
 
 .menu {
     padding: 0;
